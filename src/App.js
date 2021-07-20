@@ -1,9 +1,16 @@
+import Headerbar from "./components/Headerbar/Headerbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <span>Admin Application</span>
+    <div>
+      <Headerbar />
+      <div className="container">
+        <Sidebar />
+        <div className="other">Other</div>
+      </div>
     </div>
   );
 }
