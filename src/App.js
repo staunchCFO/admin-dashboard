@@ -1,7 +1,9 @@
 import Headerbar from "./components/Headerbar/Headerbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 import "./App.css"
+
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Headerbar />
       <div className="container">
         <Sidebar />
-        <div className="other">Other</div>
+        <Dashboard />
       </div>
     </div>
   );

@@ -1,0 +1,8 @@
+.widget__small {
+    flex: 1;
+}
+.widget__content {
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 11px 1px #ececec;
+    box-shadow: 0px 0px 11px 1px #ececec;
+}
