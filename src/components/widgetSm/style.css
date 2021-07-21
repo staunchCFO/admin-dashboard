@@ -1,8 +1,60 @@
 .widget__small {
     flex: 1;
-}
-.widget__content {
     padding: 30px;
+    margin-right: 20px;
     -webkit-box-shadow: 0px 0px 11px 1px #ececec;
     box-shadow: 0px 0px 11px 1px #ececec;
+}
+
+.widget__small-title {
+    font-size: 20px;
+    font-weight:600;
+}
+
+.widget__small-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget__small-listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.widget__small-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.widget__small-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__small-username {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.widget__small-job {
+    font-weight: 300;
+}
+
+.widget__small-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(228, 147, 110);
+    color: #fff;
+}
+
+.widget__small-icons {
+    margin-right: 5px;
 }

@@ -5,6 +5,8 @@ import WidgetLg from '../../../components/widgetLg/widgetLg'
 import WidgetSm from '../../../components/widgetSm/WidgetSm'
 import { userData } from '../../../dummyData'
 
+import "./style.css"
+
 const Home = () => {
     return (
         <div>
