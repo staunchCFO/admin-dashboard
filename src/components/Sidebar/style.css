@@ -31,7 +31,7 @@
     padding: 10px;
     cursor: pointer;
     display: flex;
-    align-items: center;
+    align-items: center !important;
     border-radius: none;
     margin-bottom: 10px;
     font-size: 1rem;
@@ -41,6 +41,13 @@
 .sidebar__listItem:hover {
     background-color: rgb(288, 288, 250);
     border-left: 2px solid sienna;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center !important;
+    color: gray;
 }
 
 .sidebarIcons {
