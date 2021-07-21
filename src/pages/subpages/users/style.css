@@ -1,0 +1,32 @@
+.user {
+    flex: 5;
+    margin: 20px;
+    padding: 20px
+}
+
+.userList__user {
+    display: flex;
+    align-items: center;
+}
+
+.userList__img {
+    width: "40px";
+    height: "40px";
+    border-radius: 50%
+}
+
+.userEdit__btn {
+    padding: 10px;
+    border: none;
+    background-color: rgb(166, 166, 240);
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.userDelete__icon {
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(240, 97, 97);
+}

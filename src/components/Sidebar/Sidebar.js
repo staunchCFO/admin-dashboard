@@ -1,6 +1,6 @@
 import React from 'react'
 import { AttachMoney, DynamicFeed, Email, Equalizer, LineStyle, Person, Report, Sms, Storefront, Timeline, TrendingUp, Work } from '@material-ui/icons';
-
+import { NavLink } from 'react-router-dom'
 import "./style.css"
 
 const Sidebar = () => {
@@ -11,8 +11,10 @@ const Sidebar = () => {
                     <h3 className="sideabar__title">Dashboard</h3>
                     <ul className="sidebar__list">
                         <li className="sidebar__listItem active">
-                            <LineStyle className="sidebarIcons" /> 
-                            Home
+                            <NavLink to="/">
+                                <LineStyle className="sidebarIcons" /> 
+                                Home
+                            </NavLink>
                         </li>
                         <li className="sidebar__listItem">
                             <Timeline className="sidebarIcons" /> 
@@ -28,8 +30,10 @@ const Sidebar = () => {
                     <h3 className="sideabar__title">Quick Menu</h3>
                     <ul className="sidebar__list">
                         <li className="sidebar__listItem">
-                            <Person className="sidebarIcons" /> 
-                            Users
+                            <NavLink to="/all-users">
+                                <Person className="sidebarIcons" /> 
+                                Users
+                            </NavLink>
                         </li>
                         <li className="sidebar__listItem">
                             <Storefront className="sidebarIcons" /> 
