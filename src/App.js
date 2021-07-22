@@ -2,6 +2,7 @@ import Headerbar from "./components/Headerbar/Headerbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Users from "./pages/subpages/users/Users";
+import SingleUser from "./pages/subpages/singleUser/SingleUser";
 import {
   Switch,
   BrowserRouter as Router,
@@ -9,6 +10,7 @@ import {
 } from "react-router-dom"
 
 import "./App.css"
+
 
 
 
@@ -22,8 +24,11 @@ function App() {
           <Route exact path="/">
             <Dashboard />
           </Route>
-          <Route path="/all-users" component={Users}>
+          <Route path="/users" component={Users}>
             <Users />
+          </Route>
+          <Route path="/all-users/:userId" component={SingleUser}>
+            <SingleUser />
           </Route>
         </Switch>
       </div>

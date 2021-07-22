@@ -30,7 +30,7 @@ const Sidebar = () => {
                     <h3 className="sideabar__title">Quick Menu</h3>
                     <ul className="sidebar__list">
                         <li className="sidebar__listItem">
-                            <NavLink to="/all-users">
+                            <NavLink to="/users">
                                 <Person className="sidebarIcons" /> 
                                 Users
                             </NavLink>

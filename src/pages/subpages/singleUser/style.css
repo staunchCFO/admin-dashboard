@@ -1,0 +1,48 @@
+.singleUser {
+    flex: 5;
+    padding: 20px;
+}
+
+.singleUserTitle__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.singleUser__btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(79, 109, 206);
+    color: #fff;
+    cursor: pointer;
+}
+
+.singleUser__icon {
+    font-size: .2em;
+    margin-left: 5px;
+}
+
+.singleUser__container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.singleUser__display {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px 0px 11px 1px #ececec;
+    box-shadow: 0px 0px 11px 1px #ececec;
+}
+
+.singleUser__update {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px 1px #ececec;
+    box-shadow: 0px 0px 11px 1px #ececec;
+}
