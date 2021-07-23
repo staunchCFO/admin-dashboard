@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Users from "./pages/subpages/users/Users";
 import SingleUser from "./pages/subpages/singleUser/SingleUser";
+import NewUser from "./pages/subpages/newUser/NewUser";
 import {
   Switch,
   BrowserRouter as Router,
@@ -10,6 +11,7 @@ import {
 } from "react-router-dom"
 
 import "./App.css"
+
 
 
 
@@ -29,6 +31,9 @@ function App() {
           </Route>
           <Route path="/all-users/:userId" component={SingleUser}>
             <SingleUser />
+          </Route>
+          <Route path="/add-new-user" component={NewUser}>
+            <NewUser />
           </Route>
         </Switch>
       </div>

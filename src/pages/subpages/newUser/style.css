@@ -1,0 +1,57 @@
+.newUser {
+    flex: 5;
+    padding: 20px;
+}
+
+.newUser__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUser__updateItem {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newUser__updateItem > label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.newUser__updateInput {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.newUser__active {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.newUser__active > label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.newUser__selectOption {
+    width: 363px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.newUser__btnWrap {
+    margin-top: 10rem;
+    margin-left: -12.5rem;
+    padding: 10px 20px;
+}
+
+.newUser__btn {
+    width: 200px;
+    border: none;
+    background-color: red;
+}

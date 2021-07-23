@@ -46,3 +46,109 @@
     -webkit-box-shadow: 0px 0px 11px 1px #ececec;
     box-shadow: 0px 0px 11px 1px #ececec;
 }
+
+.singleUser__top {
+    display: flex;
+    align-items: center;
+}
+
+.singleUser__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.singleUser__ShowTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.singleUser__Username {
+    font-weight: 600;
+}
+
+.singleUser__Job {
+    font-weight: 300;
+    color: gray;
+    margin-top: 10px;
+}
+
+.singleUser__bottom {
+    margin-top: 20px;
+}
+
+.singleUser__showBottomTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(78, 74, 74);
+}
+
+.singleUser__showBottomDetails {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.singleUser__showUserIcon {
+    font-size: 1rem !important;
+}
+
+.singleUser__showUserInfo {
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.singleUser__updateTitle {
+    font-weight: 600;
+}
+
+.singleUser__updateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+} 
+
+.singleUser__updateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.singleUser__updateInput {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.singleUser__updateItem > label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.singleUser__updateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.singleUser__updateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.singleUser__userUploadIcon {
+    cursor: pointer;
+}
+
+.singleUser__updateBtn {
+    padding: 10px 30px;
+    background-color: rgb(230, 160, 127);
+    border: none;
+    color: #fff;
+}
